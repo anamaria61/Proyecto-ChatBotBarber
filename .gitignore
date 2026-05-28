@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Archivos de configuración local
+config.local.py
+secrets.py
+
+# Logs y bases de datos
+*.log
+*.db
+*.sqlite
+
+# Archivos del sistema operativo
+Thumbs.db
+.DS_Store
+.DS_Store[200~
+# Archivos de configuración local
+config.local.py
+secrets.py
+
+# Logs y bases de datos
+*.log
+*.db
+*.sqlite
+
+# Archivos del sistema operativo
+Thumbs.db
+.DS_Store
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Archivos de configuración local
+config.local.py
+secrets.py
+
+# Logs y bases de datos
+*.log
+*.db
+*.sqlite
+
+# Archivos del sistema operativo
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+.DS_Store
+
+#Archivos de configuración local
+config.local.py
+secrets.py
+
+#Logs y bases de datos
+*.log
+*.db
+*.sqlite
+
+#Archivos del sistema operativos
+Thumbs.db
+.DS_Store
