@@ -56,6 +56,11 @@ def obtener_rol(self) -> str:
     """Retorna el rol correspondiente del usuario"""
     pass
 
+@abstractmethod
+def obtener_permisos(self) -> List[str]:
+    """Retorna la lista de permisos del usuario."""
+    pass
+
 def actualizar_perfil(self, nombre: str = None, email: str = None, telefono: str = None) -> None:
     """Actualiza los datos del perfil"""
     if nombre:
