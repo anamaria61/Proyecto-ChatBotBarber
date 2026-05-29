@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 from datetime import datetime
+from typing import Optional, List
 
 class Usuario(ABC):
     def __init__(self, nombre: str, email: str, telefono: str, nombre_usuario: str, contrasena: str):
@@ -40,7 +41,7 @@ def email(self, valor: str):
         raise ValueError("Email inválido")
     self._email = valor
 
-def _hash_contrsena(self, contrasena: str) -> str:
+def _hash_contrasena(self, contrasena: str) -> str:
     """Simula el hasheo de la contraseña"""
     import hashlib
     return hashlib.sha256(contrasena.encode()).hexdigest()
