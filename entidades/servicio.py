@@ -10,7 +10,7 @@ class Servicio:
     def nombre(self) -> str:
         return self._nombre
 
-    @property.setter 
+    @nombre.setter 
     def nombre(self, valor: str):
         if not valor:
             raise ValueError("El nombre del serviciono puede estar vacío")
@@ -20,7 +20,7 @@ class Servicio:
     def precio(self) -> float:
         return self._precio
 
-    @property.setter
+    @precio.setter
     def precio(self, valor: float):
         if valor <0:
             raise ValueError("El precio no puede ser negativo")
